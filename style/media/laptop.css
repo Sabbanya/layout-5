@@ -1,0 +1,73 @@
+@media screen and (max-width: 769px) {
+  img {
+    max-width: 100%;
+  }
+
+  /**HEADER**/
+  header {
+    padding: 0 40px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__inner .header__buttons {
+    display: none;
+  }
+  .header__inner .hamburger img {
+    display: block;
+  }
+  /**WELCOME**/
+  .welcome {
+    padding: 0 90px;
+    background-position: right;
+  }
+  /**BRANDS**/
+  .brands__items {
+    padding: 0 30px;
+    flex-wrap: wrap;
+  }
+  .brands__item {
+    margin: 10px 30px;
+  }
+
+  /**STATS**/
+  .stats__inner {
+    flex-direction: column-reverse;
+  }
+  .stats__left {
+    padding-top: 20px;
+  }
+  /**QUBIT**/
+  .qubit__items {
+    padding: 0 30px;
+  }
+  /**LEADING**/
+  .leading__inner .card__items .card__item {
+    margin: 30px 0;
+  }
+  /**CARDS**/
+  .card__items {
+    flex-direction: column;
+  }
+  .card__item {
+    margin: 50px 20px;
+  }
+  /**ecosystem**/
+  .ecosystem__inner {
+    padding: 10px 15px;
+  }
+  .ecosystem__inner .ecosystem__tittle {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  .ecosystem__inner .ecosystem__disc {
+    padding-bottom: 30px;
+  }
+  /**FOOTER**/
+  .footer__block {
+    display: none;
+  }
+  footer .footer__inner {
+    padding-top: 0px;
+  }
+}
