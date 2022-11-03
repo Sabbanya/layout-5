@@ -1,0 +1,63 @@
+@media screen and (max-width: 570px) {
+  .welcome .welcome__inner {
+    padding-top: 50px;
+  }
+  .welcome .welcome__main,
+  .welcome .welcome__main span {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .welcome .welcome__disc {
+    font-size: 14px;
+    width: 320px;
+  }
+  .welcome {
+    padding: 0 10px;
+  }
+  .welcome .welcome__search {
+    display: none;
+  }
+  .brands__inner .brands__items {
+    justify-content: center;
+  }
+  .stats .stats__inner {
+    justify-content: center;
+  }
+  .stats .stats__inner .stats__right {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .stats__items .stats__item {
+    padding-bottom: 30px;
+  }
+  .leading .leading__inner .card__items .card__item {
+    width: 250px;
+  }
+  .stats__right .stats__two {
+    margin-left: 0;
+  }
+  .commerce .commerce__inner {
+    padding: 0 30px;
+  }
+  .commerce .commerce__items {
+    flex-direction: column;
+  }
+  .commerce .commerce__items .commerce__item {
+    margin: 10px 0;
+  }
+  .ecosystem__left .ecosystem__tittle {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .ecosystem__left .ecosystem__disc {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .ecosystem button {
+    display: none;
+  }
+  .demo .welcome__search {
+    display: none;
+  }
+}
